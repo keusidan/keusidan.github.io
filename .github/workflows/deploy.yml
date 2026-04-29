@@ -25,7 +25,7 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: パッケージをインストール
-        run: npm ci
+        run: npm ci --legacy-peer-deps
       - name: プロジェクトをビルド（翻訳）
         run: npm run build
       - name: Pagesの設定
