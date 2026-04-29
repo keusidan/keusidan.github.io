@@ -1,6 +1,6 @@
-import Header from '../header/Header.tsx';
-import "../font/font.ts";
-import { fonts } from '../font/font.ts';
+import Header from '../public/header/Header.tsx';
+import "../public/font/font.ts";
+import { fonts } from '../public/font/font.ts';
 
 export default function App() {
   const hours: number = new Date().getHours()
